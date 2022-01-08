@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Website</title>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+       <h1 class="logo">Music</h1> 
+       <ul class="nav-links">
+           <li class="active"><a href=""></a>Home</li>
+           <li> <a href="#"></a>Tours</li>
+           <li> <a href="#"></a>Explore</li>
+           <li> <a href="#"></a>About</li>
+           <li class="ctn"><a href=""></a>Contact</li>
+        </ul>
+
+        <img src="Images/menu-btn.png"  class="menu-btn">
+    </nav>
+    <header>
+         <div class="header-content">
+            <h2>All you want for This Summer</h2>
+            <div class="line"></div>
+            <h1>Music</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+        
+    </header>
+
+     <!--Events-->
+     <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="Images/image-2.jpg" alt="">
+                <h4>The Last World Tour of 2022 "Bad Bunny"</h4>
+                <p> Bad Bunny is taking his El Ultimo Tour Del Mundo (”The Last Tour of the World”) on the road starting in February 2022.
+                    The tour is highly anticipated after Bad Bunny AKA Benito Antonio Martínez Ocasio was named Spotify’s “Most Streamed Artist of 2020,″
+                     which he followed up with a 2021 Grammy win for his album “YHLQMDLG” in the Best Latin Pop or Urban Album category.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="Images/image-3.jpg" alt="">
+                <h4>Ultra Festival 2022</h4>
+                <p>Ultra Music Festival, possibly one of Miami’s most well known and notorious music festivals in recent history, 
+                   is officially on for 2022 — and the lineup for Phase 1 has already been announced.
+                   Ultra Music Festival will be returning to Bayfront Park from March 25 - 27, 2022, following an agreement with the Downtown Neighbors Alliance.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+        <h1>We hope your visit</h1>
+        <div class="line"></div>
+        <p>We hope that you can come to this massive events starting from mid February onwards.</p>
+        <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+    <section class="tours">
+        <div class="row">
+          <div class="col content-col">
+            <h1>Upcoming Tours</h1>
+            <div class="line"></div>
+            <p>The Upcoming Tours its going to generate a lot of attention
+                for those teenagers and adults that love Hip Hop Music and
+                Reggaeton.
+            </p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>  
+        <div class="col image-col">
+            <div class="image-gallery">
+                <img src="Images/image-6.jpg" alt="">  
+                <img src="Images/image-2.jpg" alt=""> 
+                <img src="Images/image-3.jpg" alt=""> 
+                <img src="Images/image-5.jpg" alt=""> 
+            </div>
+        </div>
+        
+        </div>
+    </section>
+    <section class="footer">
+        <p>8719 SW 38th Street Miami,Florida,USA | Phone:502-819-2620 | For more info|email:neyraojeda@yahoo.com</p>
+        <p>Copyright  @2022 Miami Tours 2022</p>
+    </section>
+    
+
+    <script>
+        const menuBtn = document.querySelector ('.menu-btn')
+const navlinks = document.querySelector ('.nav-links')
+
+menuBtn.addEventListener('click' ,()=>{
+    navlinks.classList.toggle('mobile-menu')
+});
+
+    </script>
+        
+
+</body>
+</html>
