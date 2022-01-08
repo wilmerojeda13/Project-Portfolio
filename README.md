@@ -20,4 +20,4 @@
 - Brief description of the Project
 
 ## Screenshots
-![ScreenShot] 
+![ScreenShot] (https://github.com/wilmerojeda13/Project-Portfolio/blob/main/Images/image-6.jpg)
